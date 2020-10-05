@@ -37,4 +37,8 @@
 
     $str = preg_replace("/\s/","_","Hello there");
     echo $str . "<br/>";
+
+    $pattern3 = "/\n/";
+    $rep = preg_replace($pattern3," ","Hello world");
+    echo $rep;
 ?>
