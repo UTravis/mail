@@ -39,6 +39,6 @@
     echo $str . "<br/>";
 
     $pattern3 = "/\S/";
-    $rep = preg_replace($pattern3," ","Hello world");
+    $rep = preg_replace($pattern3,"_","Hello world");
     echo $rep;
 ?>
